@@ -1,0 +1,72 @@
+body{
+    background-color: grey;
+    color: white;
+}
+
+.card{
+    background: linear-gradient(to right, #0c3eaa, #059ab8);
+    width: 40%;
+    height: 40%;
+    border-radius: 40px;
+    margin: 20px auto 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.search{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.search .input{
+    border-radius: 40px;
+    border: none;
+    padding-left: 10px;
+    height: 60px;
+    width: 80%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search .btn{
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.wheather-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.extra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.extra .humidity {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.extra .wind {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
